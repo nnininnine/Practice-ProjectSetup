@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WelcomeViewController.swift
 //  Practice-ProjectSetup
 //
 //  Created by 7Peaks on 22/8/2565 BE.
@@ -7,14 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeViewController: UIViewController {
   // MARK: - Outlets
 
-  @IBOutlet private var helloLabel: UILabel!
+  @IBOutlet private var getStartButton: UIButton!
 
   // MARK: - Properties
 
-  // MARK: - LifeCycle
+  // MARK: - LifeCycles
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -25,6 +25,8 @@ class ViewController: UIViewController {
   // MARK: - Methods
 
   func setup() {
-    helloLabel.text = String(localized: "Hello")
+    navigationController?.navigationBar.prefersLargeTitles = true
+    
+    // setup button
   }
 }
