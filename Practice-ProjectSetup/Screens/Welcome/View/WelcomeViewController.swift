@@ -42,7 +42,14 @@ class WelcomeViewController: UIViewController {
     alert.addAction(cancel)
 
     // add confirm action
-    let confirm: UIAlertAction = .init(title: String(localized: "Confirm"), style: .default)
+    let confirm: UIAlertAction = .init(title: String(localized: "Confirm"), style: .default, handler: { [weak self] _ in
+      guard let self = self, let text: String = alert.textFields?.first?.text else { return }
+
+      if !text.isEmpty {
+        guard let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController") as? ViewController else { return }
+        self.navigationController?.pushViewController(vc, animated: true)
+      }
+    })
     alert.addAction(confirm)
 
     return alert
