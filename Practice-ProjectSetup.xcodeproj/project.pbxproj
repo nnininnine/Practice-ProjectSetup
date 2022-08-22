@@ -15,6 +15,7 @@
 		69E5F83028B33A2C000912AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E5F82E28B33A2C000912AA /* LaunchScreen.storyboard */; };
 		69E5F84328B355F4000912AA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69E5F84528B355F4000912AA /* Localizable.strings */; };
 		69E5F84D28B3844F000912AA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5F84C28B3844F000912AA /* WelcomeViewController.swift */; };
+		69E5F85528B38BCD000912AA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5F85428B38BCD000912AA /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		69E5F84628B355F6000912AA /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		69E5F84C28B3844F000912AA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		69E5F85128B38986000912AA /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
+		69E5F85428B38BCD000912AA /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		69E5F82228B33A2C000912AA /* Practice-ProjectSetup */ = {
 			isa = PBXGroup;
 			children = (
+				69E5F85228B38B85000912AA /* Extension */,
 				69E5F84728B3837F000912AA /* Screens */,
 				69E5F84028B355C1000912AA /* Localization */,
 				69E5F83728B33D81000912AA /* Config */,
@@ -136,6 +139,14 @@
 				69E5F84C28B3844F000912AA /* WelcomeViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		69E5F85228B38B85000912AA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				69E5F85428B38BCD000912AA /* String+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 				69E5F82828B33A2C000912AA /* ViewController.swift in Sources */,
 				69E5F84D28B3844F000912AA /* WelcomeViewController.swift in Sources */,
 				69E5F82428B33A2C000912AA /* AppDelegate.swift in Sources */,
+				69E5F85528B38BCD000912AA /* String+Extension.swift in Sources */,
 				69E5F82628B33A2C000912AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -32,7 +32,20 @@ class WelcomeViewController: UIViewController {
   }
 
   func getStartedAlert() -> UIAlertController {
-    return .init()
+    let alert: UIAlertController = .init(title: String(localized: "Enter name"), message: "Enter name for first time used.".localized(), preferredStyle: .alert)
+
+    // add text field
+    alert.addTextField()
+
+    // add cancel action
+    let cancel: UIAlertAction = .init(title: String(localized: "Cancel"), style: .cancel)
+    alert.addAction(cancel)
+
+    // add confirm action
+    let confirm: UIAlertAction = .init(title: String(localized: "Confirm"), style: .default)
+    alert.addAction(confirm)
+
+    return alert
   }
 
   // MARK: - Actions
