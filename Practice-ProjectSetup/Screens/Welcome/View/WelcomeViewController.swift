@@ -26,7 +26,20 @@ class WelcomeViewController: UIViewController {
 
   func setup() {
     navigationController?.navigationBar.prefersLargeTitles = true
-    
+
     // setup button
+    getStartButton.configuration?.title = String(localized: "Get Started")
+  }
+
+  func getStartedAlert() -> UIAlertController {
+    return .init()
+  }
+
+  // MARK: - Actions
+
+  @IBAction func onTapGetStarted(_ sender: UIButton) {
+    let alert = getStartedAlert()
+
+    present(alert, animated: true)
   }
 }

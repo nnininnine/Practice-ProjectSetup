@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; configuration.title = "Get Started"; ObjectID = "A82-9u-c7P"; */
+"A82-9u-c7P.configuration.title" = "Get Started";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "A82-9u-c7P"; */
+"A82-9u-c7P.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "eIP-qx-HAO"; */
+"eIP-qx-HAO.text" = "Hello";
+
+/* Class = "UINavigationItem"; title = "Welcome,"; ObjectID = "lU1-Rb-aZV"; */
+"lU1-Rb-aZV.title" = "Welcome,";
