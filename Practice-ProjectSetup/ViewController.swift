@@ -8,12 +8,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+  // MARK: - Outlets
+
+  @IBOutlet private var helloLabel: UILabel!
+
+  // MARK: - Properties
+
+  // MARK: - LifeCycle
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+
+    setup()
   }
 
+  // MARK: - Methods
 
+  func setup() {
+    helloLabel.text = String(localized: "Hello")
+  }
 }
-
