@@ -14,6 +14,8 @@ class ViewController: UIViewController {
 
   // MARK: - Properties
 
+  private var name: String = ""
+
   // MARK: - LifeCycle
 
   override func viewDidLoad() {
@@ -25,7 +27,13 @@ class ViewController: UIViewController {
   // MARK: - Methods
 
   func setup() {
-    helloLabel.text = String(localized: "Hello")
+    navigationItem.hidesBackButton = true
+
+    helloLabel.text = String(localized: "Hello") + " \(name)"
     helloLabel.sizeToFit()
+  }
+
+  func configure(with name: String) {
+    self.name = name
   }
 }

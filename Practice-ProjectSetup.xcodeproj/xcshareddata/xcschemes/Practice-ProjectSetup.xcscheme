@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "69E5F81F28B33A2C000912AA"
-               BuildableName = "Practice-ProjectSetup.app"
+               BuildableName = "Prod.app"
                BlueprintName = "Practice-ProjectSetup"
                ReferencedContainer = "container:Practice-ProjectSetup.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69E5F81F28B33A2C000912AA"
-            BuildableName = "Practice-ProjectSetup.app"
+            BuildableName = "Prod.app"
             BlueprintName = "Practice-ProjectSetup"
             ReferencedContainer = "container:Practice-ProjectSetup.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "69E5F81F28B33A2C000912AA"
-            BuildableName = "Practice-ProjectSetup.app"
+            BuildableName = "Prod.app"
             BlueprintName = "Practice-ProjectSetup"
             ReferencedContainer = "container:Practice-ProjectSetup.xcodeproj">
          </BuildableReference>

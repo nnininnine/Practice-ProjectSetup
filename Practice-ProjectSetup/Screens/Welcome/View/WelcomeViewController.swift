@@ -47,6 +47,8 @@ class WelcomeViewController: UIViewController {
 
       if !text.isEmpty {
         guard let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController") as? ViewController else { return }
+        vc.configure(with: text)
+        self.navigationItem.backButtonTitle = "Back".localized()
         self.navigationController?.pushViewController(vc, animated: true)
       }
     })
