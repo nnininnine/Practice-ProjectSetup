@@ -1,2 +1,4 @@
 /* Class = "UINavigationItem"; title = "Welcome,"; ObjectID = "lU1-Rb-aZV"; */
 "lU1-Rb-aZV.title" = "ยินดีต้อนรับ,";
+/* Class = "UIButton"; title = "Back to onboarding"; ObjectID = "YJy-ii-yd6"; */
+"YJy-ii-yd6.configuration.title" = "กลับหน้าแรก";
