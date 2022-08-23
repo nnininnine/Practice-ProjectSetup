@@ -29,8 +29,15 @@ class ViewController: UIViewController {
   func setup() {
     navigationItem.hidesBackButton = true
 
+    setupLabel()
+  }
+
+  func setupLabel() {
     helloLabel.text = String(localized: "Hello") + " \(name)"
     helloLabel.sizeToFit()
+    helloLabel.translatesAutoresizingMaskIntoConstraints = false
+    helloLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+    helloLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
   }
 
   func configure(with name: String) {
